@@ -7,5 +7,5 @@ Navigate to the repository where the program is located
 > make
 > ./syncseq
 ```
-Execute above command in terminal and provide user inputs as prompted. The below image illustrates a demonstration.
+Execute the above commands in terminal and enter user inputs as prompted. The below image illustrates a demonstration. < /br>
 ![Quote](https://github.com/kannikakabilar/Chatle/blob/main/275752206_5080581921999469_2772197795159133071_n.png)
