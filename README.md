@@ -1,2 +1,11 @@
 # SynchronizeSequence
-The Synchronize Sequence program effectively utilizes the multiple cores of a device's processor to calculate high orders of a sequence synchronously. The program makes use of fork system call to run processes concurrently and share results through a pipe file descriptor. This program can be used to execute memory occupying and cpu bound processes simultaneously allowing to reduce the completion time. The program can also be easily modified adding execl() system call to execute another program synchronously to calculating the order of the sequence.
+The Synchronize Sequence program utilizes the multiple cores of a device's processor effectively to calculate high orders of a sequence synchronously. The program makes use of fork system call to run processes concurrently and share results through a pipe file descriptor. This program can be used to execute memory occupying and cpu bound processes simultaneously allowing it to reduce its completion time. The program can also be easily modified by adding execl() system call to execute another program synchronously while calculating the order of the sequence. 
+
+# How to Run
+Navigate to the repository where the program is located
+```md
+> make
+> ./syncseq
+```
+Execute above command in terminal and provide user inputs as prompted. The below image illustrates a demonstration.
+![Quote](https://github.com/kannikakabilar/Chatle/blob/main/275752206_5080581921999469_2772197795159133071_n.png)
